@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import { styled } from 'styled-components'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { Route } from './Routes/Route'
+import { NavLink } from 'react-router-dom'
 
 function App() {
-    const [count, setCount] = useState(0)
-
     return (
         <>
-            <Title>Hola Panitas</Title>
+            <Title>Hola </Title>
+            <Route />
+            <NavLink to="game">hola</NavLink>
+            <h1>hola</h1>
         </>
     )
 }
