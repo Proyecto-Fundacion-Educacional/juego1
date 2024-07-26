@@ -5,12 +5,11 @@ import { NavLink } from 'react-router-dom'
 
 function App() {
     return (
-        <>
-            <Title>Hola </Title>
-            <Route />
-            <NavLink to="game">hola</NavLink>
-            <h1>hola</h1>
-        </>
+         <>
+             <Title>Hola </Title>
+             <NavLink to="game">hola</NavLink>
+             <h1>hola</h1>
+         </>
     )
 }
 
